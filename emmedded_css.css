@@ -1,0 +1,19 @@
+#hero .container .hero-wrapper.hero-wrapper::after,
+#hero .container .hero-wrapper.hero-wrapper::before {
+    display: none !important;
+}
+
+.swal2-cancel.swal2-styled {
+    background-color: #AA4A44;
+    content: 'Đóng';
+}
+
+.bii-player-secondary {
+    visibility: hidden !important;
+}
+
+@media screen and (max-width: 576px) {
+    .parent-infos {
+        font-size: .5rem;
+    }
+}
