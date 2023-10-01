@@ -1,4 +1,5 @@
-const removePlayBtn = () => {
+(() => { 
+    const removePlayBtn = () => {
     let audiobtn;
     do {
         audiobtn = document.getElementsByClassName('bii-player')[0]
@@ -26,3 +27,4 @@ console.log('check_dâta');
 setTimeout(() => {
     console.log('check_dâta_2');
 })
+})()
